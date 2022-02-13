@@ -1,0 +1,58 @@
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.card{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.qr-code{
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+h1{
+    color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 0 15px;
+}
+
+main{
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    margin: 20px;
+    max-width: 375px;
+    justify-content: center;
+
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding: 0 35px;
+}
+
+
+
